@@ -11,7 +11,7 @@ public class FromWhereToWhere {
         int to = Integer.parseInt(scanner.nextLine());
         System.out.println("Where from?");
         int from = Integer.parseInt(scanner.nextLine());
-        for (int i = from; i < (to + 1); i++) {
+        for (int i = from; i <= to; i++) {
             System.out.println(i);
         }
     }
